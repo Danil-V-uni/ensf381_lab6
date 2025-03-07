@@ -5,13 +5,14 @@ import About from './About';
 import Contact from './Contact';
 
 function App() {
-    var currentYear = new Date().getFullYear()
-    var isLoggedIn = false
+    const currentYear = new Date().getFullYear()
+    const isLoggedIn = false
     return (
         <div>
             <h1>ENSF-381: Full Stack Web Development</h1>
             <p>React Components</p>
-            <p>{currentYear}</p>
+
+            <p>Current Year: {currentYear}</p>
             <p>{isLoggedIn ? 'Welcome back!' : 'Please log in.'}</p>
             <Home title='Home Page' description='Welcome to our website.'/>
             <About title='About Us' description='We are passionate about delivering quality experiences.'/>
