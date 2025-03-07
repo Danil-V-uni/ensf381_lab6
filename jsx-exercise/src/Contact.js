@@ -5,7 +5,7 @@ function Contact(props) {
         <div>
             <h1>{props.title}</h1>
             <p>{props.description}</p>
-            <div>Contact Us</div>
+            <p>Contact Us</p>
         </div>
     );
 }

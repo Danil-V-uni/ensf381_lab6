@@ -5,7 +5,7 @@ function Home(props) {
         <div>
             <h1>{props.title}</h1>
             <p>{props.description}</p>
-            <div>Welcome to the Home Page</div>
+            <p>Welcome to the Home Page</p>
         </div>
     );
 

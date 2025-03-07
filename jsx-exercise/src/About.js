@@ -5,7 +5,7 @@ function About(props) {
         <div>
             <h1>{props.title}</h1>
             <p>{props.description}</p>
-            <div>About Us</div>
+            <p>About Us</p>
         </div>
     );
 }
